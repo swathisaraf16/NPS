@@ -1,0 +1,55 @@
+1. Set Up a Simple Network Topology
+For this example, let’s assume you have a simple network topology with two PCs connected to a switch.
+
+2. Open Command Prompt
+Press Win + R, type cmd, and press Enter to open the Command Prompt.
+3. Execute Networking Commands
+ipconfig:
+Purpose: Displays the current network configuration of the machine.
+Command: ipconfig
+Example:
+ipconfig
+
+Output: Shows IP address, subnet mask, default gateway, etc.
+tracert:
+Purpose: Traces the route packets take to reach a destination.
+Command: tracert <destination>
+Example:
+tracert google.com
+
+Output: Displays each hop along the route to the destination.
+telnet:
+Purpose: Connects to remote devices using the Telnet protocol.
+Command: telnet <hostname> <port>
+Example:
+telnet google.com 80
+
+Output: Connects to the specified host and port.
+netsh:
+Purpose: Configures network settings and displays network information.
+Command: netsh <context> <command>
+Example:
+netsh interface ip show config
+
+Output: Displays IP configuration for all network interfaces.
+ping:
+Purpose: Tests connectivity between two network devices.
+Command: ping <destination>
+Example:
+ping google.com
+
+Output: Sends ICMP echo requests and displays replies.
+nslookup:
+Purpose: Queries DNS to obtain domain name or IP address mapping.
+Command: nslookup <domain>
+Example:
+nslookup google.com
+
+Output: Displays the IP address associated with the domain.
+netstat:
+Purpose: Displays network connections, routing tables, and interface statistics.
+Command: netstat
+Example:
+netstat -an
+
+Output: Shows active connections and listening ports.

@@ -1,0 +1,9 @@
+1. Build a Simple Network:
+Add two PCs and a switch to the workspace.
+Connect the PCs to the switch using copper straight-through cables.
+2. Configure IP Addresses:
+Assign IP addresses to the PCs (e.g., PC1: 192.168.1.1, PC2: 192.168.1.2).
+Ensure both PCs are in the same subnet.
+3.Test Connectivity:
+Use the ping command from one PC to the other to test network connectivity.
+Observe the packet flow in simulation mode to understand how data travels through the network.
